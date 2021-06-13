@@ -11,255 +11,272 @@
     <title>My awesome portfolio</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-         <nav class="flex items-center justify-between">
-            <div class="left flex items-center">
-                <div class="branding">
-                    <img src="./images/logo.svg" alt="">
-                </div>
-                <div>
-                    <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Pages</a>
-                    <a href="#">Blog</a>
-                </div>
-            </div>
-            <div class="right">
-                <button class="btn btn-primary">Contact</button>
-            </div>
-         </nav>
-
-         <div class="hero flex items-center justify-between">
-             <div class="left flex-1 flex justify-center">
-                <img src="./images/man.png" alt="">
-             </div>
-             <div class="right flex-1">
-                <h6>Aavi Chari</h6>
-                <h1>I'm a Creative <span>Front-end Developer</span></h1>
-                <p>I code beautifully simple things, and I love what I do.</p>
-                <div><button class="btn btn-secondary">DOWNLOAD CV</button></div>
-             </div>
-         </div>
-
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamberger.svg" alt="">
+        </button>   
+        <div class="mobile-nav open">
+            <button class="times"><img src="./images/times.svg" alt=""></button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blog</a></li>
+            </ul>
         </div>
-    </header>
-
-    <section class="about">
-        <div class="container flex items-center">
-            <div class="flex-1">
-                <img class="about-me-img" src="./images/man-2.png" alt="">
+        
+        <header>
+            <div class="container">
+             <nav id="main-nav" class="flex items-center justify-between">
+                <div class="left flex items-center">
+                    <div class="branding">
+                        <img src="./images/logo.svg" alt="">
+                    </div>
+                    <div>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">Pages</a>
+                        <a href="#">Blog</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <button class="btn btn-primary">Contact</button>
+                </div>
+             </nav>
+    
+             <div class="hero flex items-center justify-between">
+                 <div class="left flex-1 flex justify-center">
+                    <img src="./images/man.png" alt="">
+                 </div>
+                 <div class="right flex-1">
+                    <h6>Aavi Chari</h6>
+                    <h1>I'm a Creative <span>Front-end Developer</span></h1>
+                    <p>I code beautifully simple things, and I love what I do.</p>
+                    <div><button class="btn btn-secondary">DOWNLOAD CV</button></div>
+                 </div>
+             </div>
+    
             </div>
-            <div class="flex-1">
-                <h1>About <span>Me</span></h1>
-                <h3>Hello! I'm Aavi Chari</h3>
-                <p> I am Front-End Web Developer. I have completed my B.E in the department of Electronics
-                    and Telecommunications from Padre Conceicao College of Engineering, Verna, Goa. It's been a
-                    year, I’m learning and absorbing skills as web developer. I have developed many website.</p>
-            <div class="social">
+        </header>
+    
+        <section class="about">
+            <div class="container flex items-center about-inner-wrap">
+                <div class="flex-1">
+                    <img class="about-me-img" src="./images/man-2.png" alt="">
+                </div>
+                <div class="flex-1 right">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello! I'm Aavi Chari</h3>
+                    <p> I am Front-End Web Developer. I have completed my B.E in the department of Electronics
+                        and Telecommunications from Padre Conceicao College of Engineering, Verna, Goa. It's been a
+                        year, I’m learning and absorbing skills as web developer. I have developed many website.</p>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/aavi-chari-6a0853144/"><img src="./images/linkedin.png" alt=""></a>
+                    <a href="https://www.facebook.com/aavi.chari/"><img src="./images/facebook.png" alt=""></a>
+                    <a href="https://twitter.com/aestheticAAVI"><img src="./images/twitter.png" alt=""></a>
+                    <a href="https://github.com/aavichari24"><img src="./images/github.png" alt=""></a>
+                    <a href="https://www.instagram.com/a_a_v_i_/"><img src="./images/instagram.png" alt=""></a>
+                </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="services">
+            <div class="container">
+                <h1 class="section-heading"><span>Our</span> Services</h1>
+                <p>Working on anbitious projects.</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/programming.png" alt="">
+                        <h2>Front-end Developer</h2>
+                        <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/bag.png" alt="">
+                        <h2>Mentor</h2>
+                        <p> genuinely care about people, and love helping fellow developers/friends work on their craft.</p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/cam.png" alt="">
+                        <h2>Photography & Editing</h2>
+                        <p>Capture some best shots and enhance them using my editing skills.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="freelancer">
+            <h1>I am available for freelancer</h1>
+            <p>Want to know more about me and my academics?</p>
+            <button class="btn btn-primary">Download CV</button>
+        </section>
+    
+        <section class="reviews">
+            <div class="container">
+                <h1 class="section-heading"><span>Testimonials</span></h1>
+                <p>People I've worked with have said some nice things.</p>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="./images/ifb.png" alt="">
+                        <p>“He is a clear communicator with the tenacity and confidence to really
+                             dig in to tricky design scenarios and the collaborative friction that's needed to produce excellent work.”</p>
+                            <span>IFB Industries Ltd.</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/innovians-technologies.png" alt="">
+                        <p>“He was a real pleasure to work with and we look forward to working with him again. 
+                            He’s definitely the kind of designer you can trust with a project from start to finish.”</p>
+                            <span>Innovians Technologies.</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/iete.png" alt="">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati necessitatibus dignissimos
+                             itaque cumque magnam atque, optio expedita facilis voluptatum pariatur. Expedita explicabo
+                             modi repellendus pariatur quasi facere ut illum labore?</p>
+                            <span>The Institution Of Electronics And Telecommunication Engineers</span>
+                    </div>
+                </div>
+                <div class="slider-dots"></div>
+            </div>
+        </section>
+    
+        <section class="work">
+            <div class="container">
+                <h1 class="section-heading"><span>My</span> Recent Works</h1>
+                <p>Here are a few design projects I've worked on recently. Want to see more? <a class="hey" href="mailto:aavichari24@gmail.com">Email Me.</a></p>
+    
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="#">Web Development</a>
+                        </div>
+                        <img src="./images/ph-0.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="#">Web Development</a>
+                        </div>
+                        <img src="./images/ph-1.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="#">Web Development</a>
+                        </div>
+                        <img src="./images/ph-2.png" alt="">
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+    
+        <section class="blog">
+            <div class="container">
+                <h1 class="section-heading"><span>Our</span> Blog</h1>
+                <p>Welcome to the blog section for fresh and delightful content!</p>
+    
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/article-ph-1.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>5 Tips for Improving Your Web Development Skills.</h1>
+                            </a>
+                            <span>June 12, 2021</span>
+                            <p>Write Code Every Day, Contribute to Open-Source Projects, Teach Others What You Know, 
+                                Challenge Yourself With a New Skill, Schedule Regular Downtime.</p>
+                                 <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/reactjs.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>ReactJS Funfact.</h1>
+                            </a>
+                            <span>June 12, 2021</span>
+                            <p>React Js is a JavaScript library with attributes of a framework. It’s more tilted
+                                 towards building interfaces than being a framework.</p>
+                                <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/learn.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Learning Web Development.</h1>
+                            </a>
+                            <span>June 12, 2021</span>
+                            <p>Learn the Basics. Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript</p>
+                                 <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="contact">
+            <div class="container">
+                <h1 class="section-heading">Contact <span>US</span></h1>
+                <p>Interested in working together? We should queue up a chat. I’ll buy the coffee.</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/phone.png" alt="">
+                        <h2>Call Us On</h2>
+                        <h6>+91-9637243572</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/email.png" alt="">
+                        <h2>Email Us At</h2>
+                        <h6>aavichari24@gmail.com</h6>
+                    </div>
+                    <div class="card">
+                        <img src="./images/location.png" alt="">
+                        <h2>Visit Office</h2>
+                        <h6>H.No-54A, Near H.P Gas Godown, Chicalim, Goa 403801</h6>
+                    </div>
+                </div>
+                <form action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your Name *">
+                        <input type="email" placeholder="Your Email *">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your Subject * ">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message *"></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    
+        <footer>
+            <img class="footer-logo" src="./images/logo-2.svg" alt="">
+            <div class="footer-socials">
                 <a href="https://www.linkedin.com/in/aavi-chari-6a0853144/"><img src="./images/linkedin.png" alt=""></a>
                 <a href="https://www.facebook.com/aavi.chari/"><img src="./images/facebook.png" alt=""></a>
-                <a href="https://twitter.com/aestheticAAVI"><img src="./images/twitter.png" alt=""></a>
                 <a href="https://github.com/aavichari24"><img src="./images/github.png" alt=""></a>
                 <a href="https://www.instagram.com/a_a_v_i_/"><img src="./images/instagram.png" alt=""></a>
+                <a href="https://twitter.com/aestheticAAVI"><img src="./images/twitter.png" alt=""></a>
             </div>
+            <div class="copyright">
+                Copyright 2021 @ Aavi Chari. All Rights Reserved.
             </div>
-        </div>
-    </section>
-
-    <section class="services">
-        <div class="container">
-            <h1 class="section-heading"><span>Our</span> Services</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <div class="card-wrapper">
-                <div class="card">
-                    <img src="./images/programming.png" alt="">
-                    <h2>Front-end Developer</h2>
-                    <p>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-                </div>
-                <div class="card">
-                    <img src="./images/bag.png" alt="">
-                    <h2>Mentor</h2>
-                    <p> genuinely care about people, and love helping fellow developers/friends work on their craft.</p>
-                </div>
-                <div class="card">
-                    <img src="./images/cam.png" alt="">
-                    <h2>Photography & Editing</h2>
-                    <p>Capture some best shots and enhance them using my editing skills.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="freelancer">
-        <h1>I am available for freelancer</h1>
-        <p>Want to know more about me and my academics?</p>
-        <button class="btn btn-primary">Download CV</button>
-    </section>
-
-    <section class="reviews">
-        <div class="container">
-            <h1 class="section-heading"><span>Testimonials</span></h1>
-            <p>People I've worked with have said some nice things.</p>
-            <div class="slider">
-                <div class="slide">
-                    <img src="./images/kk.png" alt="">
-                    <p>“He is a clear communicator with the tenacity and confidence to really
-                         dig in to tricky design scenarios and the collaborative friction that's needed to produce excellent work.”</p>
-                        <span>Kalyan Krishnamurthy, CEO Flipkart</span>
-                </div>
-                <div class="slide">
-                    <img src="./images/aa.png" alt="">
-                    <p>“He was a real pleasure to work with and we look forward to working with him again. 
-                        He’s definitely the kind of designer you can trust with a project from start to finish.”</p>
-                        <span>Amit Agarwal, CEO (India) Amazon</span>
-                </div>
-                <div class="slide">
-                    <img src="./images/lady.png" alt="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati necessitatibus dignissimos
-                         itaque cumque magnam atque, optio expedita facilis voluptatum pariatur. Expedita explicabo
-                         modi repellendus pariatur quasi facere ut illum labore?</p>
-                        <span>Aavi Chari, Fresher</span>
-                </div>
-            </div>
-            <div class="slider-dots"></div>
-        </div>
-    </section>
-
-    <section class="work">
-        <div class="container">
-            <h1 class="section-heading"><span>My</span> Recent Works</h1>
-            <p>Here are a few design projects I've worked on recently. Want to see more? <a href="aavichari24@gmail.com">Email Me.</a></p>
-
-            <div class="card-wrapper">
-                <div class="card">
-                    <div class="overlay">
-                        <span>Category</span>
-                        <a href="#">Web Development</a>
-                    </div>
-                    <img src="./images/ph-0.png" alt="">
-                </div>
-                <div class="card">
-                    <div class="overlay">
-                        <span>Category</span>
-                        <a href="#">Web Development</a>
-                    </div>
-                    <img src="./images/ph-1.png" alt="">
-                </div>
-                <div class="card">
-                    <div class="overlay">
-                        <span>Category</span>
-                        <a href="#">Web Development</a>
-                    </div>
-                    <img src="./images/ph-2.png" alt="">
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="blog">
-        <div class="container">
-            <h1 class="section-heading"><span>Our</span> Blog</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati.</p>
-
-            <div class="card-wrapper">
-                <div class="card">
-                    <div class="img-wrapper">
-                        <img src="./images/article-ph-1.png" alt="">
-                    </div>
-                    <div class="card-content">
-                        <a href="#">
-                            <h1>5 Tips for Improving Your Web Development Skills.</h1>
-                        </a>
-                        <span>June 12, 2021</span>
-                        <p>Write Code Every Day, Contribute to Open-Source Projects, Teach Others What You Know, 
-                            Challenge Yourself With a New Skill, Schedule Regular Downtime.</p>
-                             <a href="#">Read More</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img-wrapper">
-                        <img src="./images/reactjs.png" alt="">
-                    </div>
-                    <div class="card-content">
-                        <a href="#">
-                            <h1>ReactJS Funfact.</h1>
-                        </a>
-                        <span>June 12, 2021</span>
-                        <p>React Js is a JavaScript library with attributes of a framework. It’s more tilted
-                             towards building interfaces than being a framework.</p>
-                            <a href="#">Read More</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="img-wrapper">
-                        <img src="./images/learn.png" alt="">
-                    </div>
-                    <div class="card-content">
-                        <a href="#">
-                            <h1>Learning Web Development.</h1>
-                        </a>
-                        <span>June 12, 2021</span>
-                        <p>Learn the Basics. Every Web Developer must have a basic understanding of HTML, CSS, and JavaScript</p>
-                             <a href="#">Read More</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="contact">
-        <div class="container">
-            <h1 class="section-heading">Contact <span>US</span></h1>
-            <p>Interested in working together? We should queue up a chat. I’ll buy the coffee.</p>
-            <div class="card-wrapper">
-                <div class="card">
-                    <img src="./images/phone-2.svg" alt="">
-                    <h2>Call Us On</h2>
-                    <h6>+91-9637243572</h6>
-                </div>
-                <div class="card">
-                    <img src="./images/msg.svg" alt="">
-                    <h2>Email Us At</h2>
-                    <h6>aavichari24@gmail.com</h6>
-                </div>
-                <div class="card">
-                    <img src="./images/map.svg" alt="">
-                    <h2>Visit Office</h2>
-                    <h6>H.No-54A, Near H.P Gas Godown, Chicalim, Goa 403801</h6>
-                </div>
-            </div>
-            <form action="">
-                <div class="input-wrap">
-                    <input type="text" placeholder="Your Name *">
-                    <input type="email" placeholder="Your Email *">
-                </div>
-                <div class="input-wrap-2">
-                    <input type="text" placeholder="Your Subject * ">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message *"></textarea>
-                </div>
-                <div class="btn-wrapper">
-                    <button class="btn btn-primary">Send Message</button>
-                </div>
-            </form>
-        </div>
-    </section>
-
-    <footer>
-        <img class="footer-logo" src="./images/logo-2.svg" alt="">
-        <div class="footer-socials">
-            <a href="https://www.linkedin.com/in/aavi-chari-6a0853144/"><img src="./images/linkedin.png" alt=""></a>
-            <a href="https://www.facebook.com/aavi.chari/"><img src="./images/facebook.png" alt=""></a>
-            <a href="https://github.com/aavichari24"><img src="./images/github.png" alt=""></a>
-            <a href="https://www.instagram.com/a_a_v_i_/"><img src="./images/instagram.png" alt=""></a>
-            <a href="https://twitter.com/aestheticAAVI"><img src="./images/twitter.png" alt=""></a>
-        </div>
-        <div class="copyright">
-            Copyright 2021 @ Aavi Chari. All Rights Reserved.
-        </div>
-    </footer>
+        </footer>
+    </div>
+    
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
